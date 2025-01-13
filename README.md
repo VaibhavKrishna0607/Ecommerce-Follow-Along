@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # E-commerce-website-demo
 
 
@@ -73,3 +74,13 @@ Successfully connected to the MongoDB database and created a working **Sign-Up P
 - Integration with the backend to store user details securely in the database.
 
 ---
+=======
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+>>>>>>> 699045c (added frontend)
