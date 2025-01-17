@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 E-commerce-website-demo
 The Ecommerce Follow-Along is an exciting, hands-on project where you’ll learn to build a complete e-commerce platform using the MERN stack. With guidance from a mentor, you’ll dive into creating APIs, setting up user authentication, designing databases, and crafting a reliable backend with Node.js and Express.
