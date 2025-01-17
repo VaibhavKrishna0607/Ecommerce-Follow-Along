@@ -44,14 +44,16 @@ Set up a solid backend with Node.js and Express.
 Design organized and efficient databases using MongoDB.
 Add secure login and authentication features.
 Use React to create a sleek, user-friendly interface.
+
 Milestones
-Milestone 1
+
+Milestone 1:
 Successfully set up the project environment and initialized the MERN stack.
 
-Milestone 2
+Milestone 2:
 Established connection with MongoDB and tested basic CRUD operations.
 
-Milestone 3
+Milestone 3:
 Successfully connected to the MongoDB database and created a working Sign-Up Page.
 
 Sign-Up Page Features:
