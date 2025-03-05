@@ -707,18 +707,18 @@ In this milestone, we will implement functionality to delete a product using its
 
 # Milestone 15: Navigation Component 📝
 
-### 1. Create a New `Nav` Component
+<!-- ### 1. Create a New `Nav` Component -->
 - The `Nav` component should contain links to the following pages:
   - Home
   - My Products
   - Add Product
   - Cart
-
-### 2. Make the Navbar Responsive
+<!-- 
+### 2. Make the Navbar Responsive -->
 - Ensure the `Nav` component is fully responsive across all screen sizes.
 - Use CSS media queries or a framework like Tailwind CSS or Bootstrap for styling.
 
-### 3. Add the `Nav` Component to All Pages
+<!-- ### 3. Add the `Nav` Component to All Pages -->
 - Include the `Nav` component in all pages of the application.
 - Implement smooth navigation to ensure a seamless user experience.
 
@@ -731,7 +731,7 @@ In this milestone, we will implement functionality to delete a product using its
 
 # Milestone 16 - Product Info Page  
 
-### will create a product info page that displays all the product data, allows users to choose the quantity, and includes an "Add to Cart" button.  
+<!-- ### will create a product info page that displays all the product data, allows users to choose the quantity, and includes an "Add to Cart" button.   -->
 
 ## Learning Goals 🎯  
 By the end of this milestone:  
@@ -786,6 +786,51 @@ In this milestone, work on backend functionality for the cart. The goal is to cr
 
 
 
+# Milestone 19: Cart Functionality - Frontend and Backend
 
+## Overview
+In this milestone, build a comprehensive cart functionality that enables users to view products in their cart and adjust quantities dynamically.
 
+## By the End of This Milestone,
+- Develop a frontend cart page to display products in the user's cart.
+- Implement quantity controls with + and - buttons for each product.
+- Create backend endpoints to update product quantities dynamically based on user actions.
+
+## Steps for Milestone 19 📝
+
+### 1. Create the Cart Page
+- Develop the frontend page to display products in the cart.
+
+### 2. Add Quantity Controls
+- Implement + and - buttons for each product to allow users to adjust the quantity.
+
+### 3. Set Up Backend Endpoints
+- Write API endpoints to increase and decrease product quantity based on user actions.
+
+# Milestone 20: User Profile Page
+
+## Overview
+This milestone focuses on building a user profile page to display and manage user details.
+
+## By the End of This Milestone,
+- Create an endpoint to send user data, including profile photo, name, email, and address.
+- Develop a frontend profile page to display and manage user information.
+
+## Steps to Complete Milestone 20 📝
+
+### Backend:
+1. **Create an Endpoint to Send User Data**
+   - Include profile photo, name, email, and address.
+
+### Frontend:
+2. **Create a Profile Page to Display User Details**
+   - Display the following information in one section:
+     - Profile photo
+     - Name
+     - Email
+3. **Display the User's Address**
+   - If an address exists, display it.
+   - If no address is found, show: "No address found".
+4. **Add a Button Labeled "Add Address"**
+   - Allow users to add an address.
 
