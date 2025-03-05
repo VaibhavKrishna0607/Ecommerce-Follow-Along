@@ -24,8 +24,8 @@ router.post('/create-product', pupload.array('image', 10), async (req, res, next
     const image = req.files.map((file) => {
         return `/products/${file.filename}`;
     });
-    // Assuming `validateProduct` is a function that checks required fields
-    const validationErrors = validateProductsData({ name, description, category, tags,price, stock, email });   
+
+    const validationErrors = validateProductsData({ name, description, category, tags, price, stock, email });
 
     if (validationErrors.length > 0) {
         return res.status(400).json({ errors: validationErrors });
@@ -36,13 +36,11 @@ router.post('/create-product', pupload.array('image', 10), async (req, res, next
     }
 
     try {
-        // Check if the user exists
         const user = await User.findOne({ email });
         if (!user) {
             return res.status(404).json({ errors: ["User not found!"] });
         }
 
-        // Create new product
         const newProduct = new Product({ 
             name, 
             description, 
@@ -129,12 +127,11 @@ router.put('/update-product/:id', pupload.array('image', 10), async (req, res) =
             updatedImages = req.files.map((file) => `/products/${path.basename(file.filename)}`);
         }
 
-        const validationErrors = validateInputs({ name, description, category, tags, price, stock, email });
+        const validationErrors = validateProductsData({ name, description, category, tags, price, stock, email });
         if (validationErrors.length > 0) {
             return res.status(400).json({ errors: validationErrors });
         }
 
-        // Update product fields
         existingProduct.name = name;
         existingProduct.description = description;
         existingProduct.category = category;
