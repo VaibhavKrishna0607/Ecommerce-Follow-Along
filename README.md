@@ -833,4 +833,18 @@ This milestone focuses on building a user profile page to display and manage use
    - If no address is found, show: "No address found".
 4. **Add a Button Labeled "Add Address"**
    - Allow users to add an address.
+  
+  ## Steps for Milestone 21 📝
+. Create an address form frontend page. . Create a state that will store the in . When clicking on 'Add Address' in the
+ 
+ ## Milestone 22: Saving Addresses in User Profiles
+
+By the end of this milestone, you'll know how to:
+✅ Create a backend endpoint that receives an address from the frontend.
+✅ Store that address inside the user's profile in the database.
+
+📝 Steps to Complete This Milestone
+Create an API endpoint that accepts an address from the frontend form.
+Add the received address to the addresses array inside the user collection in the database.
+Test the endpoint to make sure it’s working as expected.
 
