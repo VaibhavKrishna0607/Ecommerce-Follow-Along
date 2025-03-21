@@ -668,5 +668,11 @@ By the end of this milestone, we have:
 3. For each product the order will be different with same address
 4. using order schema created earlier, will store order details in mongodb order collection
 
+### **Steps for Milestone 26**
+1. need to create an endpoint that will receive the user mail
+2. will get the mail of the user using that need to retrive the _id of the user
+3. Using that _id need to get all the orders of that user
+4. Sending all the users orders in the response.
+
 ### **Completion Note:**
 The order confirmation page has been successfully implemented, providing users with a clear overview of their order details before placing it.
