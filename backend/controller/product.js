@@ -20,7 +20,7 @@ console.log(data);
 router.post('/create-product', pupload.array('image', 10), async (req, res, next) => {
     const { name, description, category, tags, price, stock, email } = req.body;
 
-    // Store image paths
+    
     const image = req.files.map((file) => {
         return `/products/${file.filename}`;
     });

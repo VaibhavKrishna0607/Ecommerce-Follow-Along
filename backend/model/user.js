@@ -58,7 +58,7 @@ const userSchema = new mongoose.Schema({
         },
     },
     createdAt: {
-        type: Date, // Fixed typo from `DataTransfer` to `Date`
+        type: Date, 
         default: Date.now,
     },
     resetPasswordToken: String,
