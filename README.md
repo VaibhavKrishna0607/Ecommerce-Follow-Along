@@ -690,6 +690,20 @@ By the end of this milestone, we have:
 4. Get the order using this id and mark the status canceled and save
 
 
+### **Steps for Milestone 29**
+
+1. created an PayPal account first PayPal developer dashboard
+2. Once login, can see an option for an sandbox accounts.
+3. Copy the UserID of that account and save it.
+4. In this sandbox accounts, can find client id copy and save it.
+5. In order conformation page, need two options for payment one is COD and another is online payment.
+6. Create radio buttons to select COD or online payment and when we click on online payment PayPal buttons need to be displayed.
+
+### **Steps for Milestone 30**
+
+1. After creating PayPal account and getting the UserID inside sandbox account.
+2. Implement online payment using PayPal API using the client key created earlier.
+3. Download NPM package called react-paypal-js that will provide an component called PayPalScriptProvider which will display online payment methods like credit or debit card etc..,
 
 ### **Completion Note:**
 The order confirmation page has been successfully implemented, providing users with a clear overview of their order details before placing it.
