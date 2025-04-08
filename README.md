@@ -705,5 +705,13 @@ By the end of this milestone, we have:
 2. Implement online payment using PayPal API using the client key created earlier.
 3. Download NPM package called react-paypal-js that will provide an component called PayPalScriptProvider which will display online payment methods like credit or debit card etc..,
 
+### **Steps for Milestone 31**
+1. Installing an npm package called react-redux
+2. Create an new folder called store with two files store.js and userActions.js.
+3. Store user mail inside global state.
+4. In store.js file configure an store with userReducer function that will handle global user email state.
+5. Inside userActions.js file write an function called setEmail that will help in storing email state inside global state.
+6. In Index.js file make sure to wrap APP component inside provider component with store as props.
+
 ### **Completion Note:**
 The order confirmation page has been successfully implemented, providing users with a clear overview of their order details before placing it.
