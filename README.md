@@ -713,5 +713,22 @@ By the end of this milestone, we have:
 5. Inside userActions.js file write an function called setEmail that will help in storing email state inside global state.
 6. In Index.js file make sure to wrap APP component inside provider component with store as props.
 
+## Steps for Milestone 32
+
+- Stored user email from the login page.
+- Retrieved that email from any other component.
+- Used dispatch to update state and useSelector to access it.
+- Avoided repetitive prop passing, making the app more scalable.
+- Built the groundwork for user-specific content management.
+
+## Steps for Milestone 33
+
+- Installed the jsonwebtoken package using NPM.
+- Generated JWT tokens using the user’s email and ID after login.
+- Set token expiration using the `maxAge` parameter.
+- Stored the token securely in an HTTP-only cookie using `res.cookie()`.
+- Established strong authentication mechanisms to protect user sessions.
+- Enabled secure access to protected routes and personalized content.
+
 ### **Completion Note:**
 The order confirmation page has been successfully implemented, providing users with a clear overview of their order details before placing it.
